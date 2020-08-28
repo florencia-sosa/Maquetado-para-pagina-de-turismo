@@ -1,0 +1,278 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Iconos de font Awesome -->
+  <script src="https://kit.fontawesome.com/b6a4b85d75.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!--CSS-->
+  <link rel="stylesheet" href="./CSS/home.css">
+  <link rel="stylesheet" href="./CSS/checkout.css">
+  <!--Fuente--->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  <title>Checkout</title>
+</head>
+<!--Navegador-->
+<section id="home">
+  <nav class="navbar navbar-expand-lg navbar-light mb-4 bg-blue fixed-top">
+    <a class="navbar-brand" href="#"> <img src="img/Logo.png" alt=""></a>
+  </nav>
+</section>
+<main class="pt-5">
+  <div class="container pt-5">
+
+    <div class="card mb-3">
+      <div class="row no-gutters py-4 p-relative">
+        <div class="col col-lg-7">
+          <h3 class="ml-3 mt-3"> <strong>Checkout</strong> </h3>
+          <div class="card-body">
+            <form class="needs-validation" novalidate>
+              <div class="form-row">
+                <div class="col-md-12 mb-3">
+                  <label for="destino">Destino</label>
+                  <input type="text" class="form-control" id="destino" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-md-6 mb-3">
+                  <label for="fechaPartida">Fecha de Partida</label>
+                  <input type="date" class="form-control" id="fechaPartida" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="fechaRegreso">Fecha de Regreso</label>
+                  <input type="date" class="form-control" id="fechaRegreso" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-md-4 mb-3">
+                  <label for="cantAdultos">Cant. Adultos</label>
+                  <input type="number" class="form-control" id="cantAdultos" required>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-md-4 mb-3">
+                  <label for="cantNinos">Cant. Niños</label>
+                  <input type="number" class="form-control" id="cantNinos" required>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="card-image">
+          <img src="IMG/travel.png" class="card-img" alt="...">
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3">
+      <div class="row no-gutters py-4 p-relative">
+        <div class="col col-lg-7">
+          <h3 class="ml-3 mt-3"> <strong>Contacto </strong> </h3>
+          <div class="card-body">
+            <form class="needs-validation" novalidate>
+              <div class="form-row">
+                <div class="col-md-6 mb-3">
+                  <label for="nombre">Nombre</label>
+                  <input type="text" class="form-control" id="nombre" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="apellido">Apellido</label>
+                  <input type="text" class="form-control" id="apellido" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-md-12 mb-3">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" id="email" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-md-12 mb-3">
+                  <label for="celular">Nº de Celular</label>
+                  <input type="text" class="form-control" id="celular" required>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="card-image">
+          <img src="IMG/travel.png" class="card-img" alt="...">
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3">
+      <div class="row no-gutters py-4 p-relative">
+        <div class="col-md-12">
+          <h3 class="ml-3 mt-3"> <strong>Detalles de Pago</strong> </h3>
+          <div class="card-body">
+
+            <table class="table">
+              <tbody>
+                <tr>
+                  <th>Cant. Niños</th>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <th>Cant. Adultos</th>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <th>Días</th>
+                  <td>8</td>
+                </tr>
+                <tr>
+                  <th>Hotel</th>
+                  <td>El gran lobo</td>
+                </tr>
+                <tr>
+                  <th>Total</th>
+                  <td>24.900usd</td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3">
+      <h3 class="ml-3 mt-3"> <strong>Detalles de Pago</strong> </h3>
+      <div class="row no-gutters py-4 p-relative">
+        <div class="col-md-7">
+          <div class="card-body">
+            <form class="needs-validation" novalidate>
+              <div class="form-row">
+                <div class="col-md-12 mb-3">
+                  <label for="tarjeta">Nº Tarjeta de Crédito/Débito</label>
+                  <input type="number" class="form-control" id="tarjeta" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-md-6 mb-3">
+                  <label for="titular">Nombre del Titular</label>
+                  <input type="text" class="form-control" id="titular" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="fechaVencimiento">Fecha de Vencimiento</label>
+                  <input type="date" class="form-control" id="fechaVencimiento" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-md-6 mb-3">
+                  <label for="codSeguridad">Cód. de Seguridad</label>
+                  <input type="number" class="form-control" id="codSeguridad" required>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="credit-image col-12 col-md-5">
+          <div class="mb-2"><i class="far fa-credit-card"></i></div>
+          <div class="mb-4">
+            <input id="condiciones" type="checkbox">
+            <label for="condiciones">Acepto términos y condiciones</label>
+          </div>
+          <div>
+            <button data-toggle="modal" data-target="#exampleModal" class="btn btn-primary">
+              <i class="fas fa-luggage-cart mr-1"></i>
+              Reservar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<!--footer-->
+<footer class="page-footer font-small blue pt-4 bg-blue">
+  <div class="container-fluid text-center text-md-left">
+    <div class="row">
+      <div class="col-md-4 mt-md-0 mt-3">
+        <h5 class="text-uppercase"> <strong>¿Dónde estamos?</strong></h5>
+        <p class="pl-4">Oficina Central <br>
+          Av. Brasil 3150 <br>
+          Montevideo, Uruguay <br>
+          Código Postal 11300 <br>
+          info@mundoturismo.uy <br>
+          (+598) 2708 8888</p>
+      </div>
+      <hr class="clearfix w-100 d-md-none pb-3">
+      <div class="col-md-4 mb-md-0 mb-3">
+        <h5 class="text-uppercase"> <b>Navegación</b></h5>
+        <ul class="list-unstyled pl-4">
+          <li>
+            <a href="#home">Inicio</a>
+          </li>
+          <li>
+            <a href="Testimonios">Testimonios</a>
+          </li>
+          <li>
+            <a href="Checkout">Checkout</a>
+          </li>
+          <li>
+            <a href="destinos.html">Destinos</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4 mb-md-0 mb-3">
+        <ul class="list-unstyled">
+          <li>
+            <p> <strong> Seguinos en redes sociales</strong> <br>
+              Enterate de todas las novedades,
+              podés participar de sorteos
+              y muchos premios más.</p>
+          </li>
+          <li>
+            <a href="#!"><i class="fab fa-facebook-square"></i> Facebook</a>
+          </li>
+          <li>
+            <a href="#!"><i class="fab fa-twitter-square"></i> Twitter</a>
+          </li>
+          <li>
+            <a href="#!"><i class="fab fa-instagram"></i> Instagram</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright text-center py-3">© 2020 Copyright</div>
+
+  <div class="modal" id="exampleModal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Su pago ha sido realizado correctamente</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>¡Gracias por confiar en nosotros!</p>
+          <p>Un representante se comunicará con usted en breve.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--Bootstrap JS-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script>
+  $(window).on("scroll", function() {
+    if ($(window).scrollTop() > 510) {
+      $(".navbar").addClass("active");
+    } else {
+      //remove the background property so it comes transparent again (defined in your css)
+      $(".navbar").removeClass("active");
+    }
+  });
+</script>
+
+<body>
+
+</body>
+
+</html>
